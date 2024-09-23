@@ -1,0 +1,16 @@
+{
+  "name": "node_api",
+  "version": "1.0.0",
+  "description": "practice node API",
+  "main": "index.js",
+  "scripts": {
+    "production": "NODE_ENV=production node index",
+    "start": "NODE_ENV=staging node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Md. Imran Hossain",
+  "license": "ISC",
+  "dependencies": {
+    "twilio": "^5.3.1"
+  }
+}
