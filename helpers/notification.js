@@ -15,7 +15,7 @@ notifications.sendTwilioSMS = async (phone, msg, callback) => {
     if (userPhone && userMsg) {
         const accountSid = twilio.accountSid;
         const authToken = twilio.authToken;
-        const client = require('twilio')(accountSid, authToken);
+        // const client = require('twilio')(accountSid, authToken);
 
         client.messages
             .create({ from: twilio.fromPhone, body: userMsg, to: userPhone })
