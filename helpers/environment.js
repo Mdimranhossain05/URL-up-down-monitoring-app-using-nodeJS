@@ -13,9 +13,9 @@ environment.staging = {
     secretKey : "stasta",
     maxCheck : 5,
     twilio : {
-        fromPhone : '+13319996145',
-        accountSid : '***********************',
-        authToken : '************************'
+        // fromPhone : '*************',
+        // accountSid : '***********************',
+        // authToken : '************************'
     }
 };
 
@@ -25,9 +25,9 @@ environment.production = {
     secretKey : "propro",
     maxCheck : 5,
     twilio : {
-        fromPhone : '+13319996145',
-        accountSid : '***********************',
-        authToken : '************************'
+        // fromPhone : '***************',
+        // accountSid : '***********************',
+        // authToken : '************************'
     }
 };
 
